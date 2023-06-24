@@ -1,4 +1,6 @@
 :root {
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
   /* # PALETTE COLORI */
   --cyan: #add8e6;
   --black: #000000;
@@ -55,21 +57,77 @@
 
 header {
   padding: 1.5rem 0;
+  background-color: #105fe4;
+}
+
+.menu_list > ul {
+  list-style: none;
+}
+
+.menu_list > ul > li {
+  display: inline-block;
+  margin-right: 40px;
+  font-weight: 700;
+  color: white;
+  font-size: 1.25em;
+}
+
+.login_button {
+  background-color:#ffffff;
+  color: black;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 1.1em;
+  font-weight: 400;
+  border-style: none;
+  cursor:pointer;
+
 }
 
 /* # JUMBOTRON */
 
 .jumbotron {
-  min-height: 400px;
+  min-height: 625px;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 .jumbotron > .container {
   width: 50%;
   min-height: 250px;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron > .container > h1 {
+  font-size: 4em;
+  margin-bottom: 40px;
+}
+
+.jumbotron > .container > p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.jumbotron > .container > button {
+  border-radius: 60px;
+  padding: 20px 30px;
+  font-size: 1.5em;
+  font-weight: 400;
+  border-style: none;
+  cursor:pointer;
+}
+
+.jumbotron > .container > button.bg-darkgray {
+  margin-left: 30px;
+  color: white;
 }
 
 /* # SECTIONS */

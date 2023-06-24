@@ -19,21 +19,42 @@
   </head>
   <body class="debug">
     <!-- # HEADER -->
-    <header class="bg-cyan">
+    <header>
       <div class="container">
-        <nav class="bg-golden flex justify-between align-center">
-          <div class="bordered">
-            <i class="fa-brands fa-discord"></i>
+        <div class="flex justify-between align-center">
+
+          <!-- LOGO -->
+          <div>
+            <!-- <i class="fa-brands fa-discord"></i> -->
+            <img src="./img/logo.svg" alt="">
           </div>
-          <div class="bordered">Link Link Link Link Link</div>
-          <div class="bordered">Login</div>
-        </nav>
+
+          <!-- MENU -->
+          <nav class="menu_list">
+            <ul>
+              <li>Scarica</li>
+              <li>Perché Discord</li>
+              <li>Nitro</li>
+              <li>Sicurezza</li>
+              <li>Assistenza</li>
+            </ul>
+          </nav>
+
+          <!-- ACCESSO -->
+          <button class="login_button">Accendi</button>
+        </div>
       </div>
     </header>
 
     <!-- # JUMBOTRON -->
     <div class="jumbotron bg-blue">
-      <div class="container bg-fuchsia bordered"></div>
+      <div class="container">
+        <h1>Il tuo posto per parlare</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quia voluptatem, rem fugiat exercitationem consectetur aliquam suscipit illum magnam reprehenderit, tempora, saepe cum ratione facere laudantium officiis quae velit quibusdam.</p>
+      
+        <button class="bg-white"><i class="fa-solid fa-down-long"></i>     Scarica per Mac</button>
+        <button class="bg-darkgray">Apri Discord nel tuo browser</button>
+      </div>
     </div>
 
     <!-- MAIN -->
@@ -41,8 +62,12 @@
       <!-- FIRST SECTION -->
       <section class="bg-white main-section">
         <div class="container flex tall">
-          <div class="large-col bg-azure bordered"></div>
-          <div class="small-col bg-pink bordered"></div>
+          <div class="large-col bg-white">
+            <img src="./img/item1.svg" alt="">
+          </div>
+          <div class="small-col">
+            <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
+          </div>
         </div>
       </section>
 
